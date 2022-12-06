@@ -14,6 +14,13 @@ module.exports = {
     "prettier",
   ],
   rules: {
-    "prettier/prettier": "warn",
+    "prettier/prettier": [
+      "warn",
+      {
+        endOfLine: "auto",
+      },
+    ],
+    semi: ["error", "always"],
+    "vue/multi-word-component-names": ["off", {}],
   },
 };
