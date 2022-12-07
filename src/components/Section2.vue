@@ -342,11 +342,12 @@
 </template>
 
 <script lang="ts" setup>
+import { CellStyle } from "element-plus";
 import { StyleValue } from "vue";
 import { frontalViewData } from "./section2-frontal-view";
 import { sideViewData } from "./section2-side-view";
 
-function headerCellStyle({ column }): StyleValue {
+function headerCellStyle({}): CellStyle<cellStyle> {
   const style = { color: "black" };
   // if (column.property === "nose") {
   //   Object.assign(style, { backgroundColor: "rgb(181,228,140)" });
@@ -371,6 +372,10 @@ function dataStyle(bold: boolean): StyleValue {
     return { fontWeight: "bolder" };
   }
   return { fontWeight: "normal" };
+}
+
+interface cellStyle {
+  color: string;
 }
 </script>
 

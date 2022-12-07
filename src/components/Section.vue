@@ -100,7 +100,7 @@
 </template>
 
 <script lang="ts" setup>
-import { StyleValue } from "vue";
+import { CellStyle } from "element-plus";
 
 const tableData1 = [
   {
@@ -128,7 +128,7 @@ const tableData2 = [
   },
 ];
 
-function headerCellStyle(): StyleValue {
+function headerCellStyle(): CellStyle<object> {
   return { color: "black" };
 }
 </script>
