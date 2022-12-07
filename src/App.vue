@@ -39,6 +39,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-top: 2rem;
 
   @media screen and (max-width: 768px) {
     max-width: 90%;
