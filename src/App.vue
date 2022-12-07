@@ -26,6 +26,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: "Times New Roman", Times, serif;
 }
 #app {
   max-width: 70%;
@@ -37,7 +38,6 @@ h1,
 h2,
 p {
   color: #333333;
-  font-family: "Times New Roman", Times, serif;
 }
 p {
   font-size: 1.2rem;
