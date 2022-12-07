@@ -51,16 +51,20 @@
   .author-list {
     width: 100%;
     .logo {
-      width: 100%;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
+      display: flex;
       justify-content: center;
       justify-items: center;
       align-items: center;
       margin: 2.5rem auto;
 
       img {
-        height: 60px;
+        height: 3.5rem;
+        margin: 1rem;
+      }
+    }
+    @media screen and (max-width: 768px) {
+      .logo {
+        flex-direction: column;
       }
     }
     .authors {

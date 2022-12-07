@@ -19,6 +19,12 @@ import Citation from "./components/Citation.vue";
 </template>
 
 <style>
+html,
+body {
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+  }
+}
 body {
   display: flex;
   justify-content: center;
@@ -33,6 +39,10 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+
+  @media screen and (max-width: 768px) {
+    max-width: 90%;
+  }
 }
 h1,
 h2,
