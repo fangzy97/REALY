@@ -4,5 +4,10 @@
         "less",
         "postcss",
         "vue" // necessary for stylelint diagnostics in .vue <style> tag
-    ]
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2
 }
