@@ -17,5 +17,5 @@ export default defineConfig({
       plugins: [postcssNested, autoprefixer],
     },
   },
-  base: "/RELAY/",
+  base: "/REALY/",
 });
